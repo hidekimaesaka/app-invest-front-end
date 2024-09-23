@@ -30,7 +30,7 @@
     border-right: .1px solid rgb(0, 0, 0);
     white-space: nowrap;
     margin: 0 auto;
-    animation: typing 3s steps(40, end) forwards;
+    animation: typing 3.5s steps(80, end) forwards;
 }
 
 @keyframes typing {

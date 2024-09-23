@@ -10,7 +10,7 @@ export default function Home(){
                 <h2 className='banner-sub-text'>Start managing your investments wallet right now!</h2>
                 </div>
             <div className="action-buttons">
-                <a href="">Create Account</a>        
+                <a href="">Create an Account</a>        
                 <a href="">Login</a>        
             </div>
         </main>
