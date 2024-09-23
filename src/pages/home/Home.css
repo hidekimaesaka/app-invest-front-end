@@ -1,0 +1,80 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    gap: 150px;
+    margin: 0;
+    background-color: white;
+
+}
+
+.banner-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.banner-sub-text {
+    overflow: hidden;
+    border-right: .1px solid rgb(0, 0, 0);
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 3s steps(40, end) forwards;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+
+.action-buttons {
+    display: flex;
+    width: 50vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.action-buttons a {
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background-color: black;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.action-buttons a:hover {
+    background-color: white;
+    
+    border-radius: 12px;
+    color: black;
+}
+
+.page-header {
+    height: 40px;
+    width: 100vw;
+    background-color: black;    
+
+}
+
+.page-footer {
+    height: 40px;
+    background-color: black;
+    width: 100vw;
+}
